@@ -10,6 +10,7 @@ After:
 
 1. Programming language: C++
 2. Compilation environment: gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4)
+3.Visualization: Viewer.py
 
 Compiler installation: sudo apt-get install g++
 
@@ -25,7 +26,7 @@ Execute: ./legalizer ibm05 output02
  
 List: ls output.*
 
-3.Visualization: Viewer.py
+
 
 Program flow:
 1. Read the file (wts and nets are not used), aux defines the file/scl defines the row/pl defines the coordinates/nodes defines the length and width
@@ -35,6 +36,9 @@ Program flow:
 5. Calculate the total displacement and maximum displacement and write to the file (6 bits of accuracy)
 
 Actual execution time (Intel(R) i7-1165G7 /16G RAM)
+
 1.toy: <1 Sec (44005.6000 / 2337.6000)
+
 2.ibm01: 17 Sec (36962324.9663 / 35641.2000)
+
 3.ibm05: 127 Sec (2224209.8687 / 525.5000)
