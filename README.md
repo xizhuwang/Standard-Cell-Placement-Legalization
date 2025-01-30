@@ -10,7 +10,7 @@ After:
 
 1. Programming language: C++
 2. Compilation environment: gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4)
-3.Visualization: Viewer.py
+3. Visualization: Viewer.py
 
 Compiler installation: sudo apt-get install g++
 
